@@ -11,6 +11,9 @@ import Eventbinding from './components/Eventbinding';
 import Conditionalbinding from './components/conditionalbinding';
 import Listrendering from './components/listrendering';
 import Form from './components/Form';
+import Refs from './components/Refs';
+import ClassrefParent from './components/ClassrefParent';
+import ForwardRefParent from './components/ForwardRefParent';
 
 class App extends Component {
   render(){
@@ -27,7 +30,10 @@ class App extends Component {
      {/* <Eventbinding/> */}
      {/* <Conditionalbinding/> */}
      {/* <Listrendering/> */}
-     <Form/>
+     {/* <Form/> */}
+     {/* <Refs/> */}
+     {/* <ClassrefParent/> */}
+     <ForwardRefParent/>
     </div>
   );
 } 
