@@ -14,7 +14,8 @@ import Form from './components/Form';
 import Refs from './components/Refs';
 import ClassrefParent from './components/ClassrefParent';
 import ForwardRefParent from './components/ForwardRefParent';
-
+import Clickcounter from './components/hoc/clickcounter';
+import HoverCounter from './components/hoc/HoverCounter';
 class App extends Component {
   render(){
   return (
@@ -33,7 +34,9 @@ class App extends Component {
      {/* <Form/> */}
      {/* <Refs/> */}
      {/* <ClassrefParent/> */}
-     <ForwardRefParent/>
+     {/* <ForwardRefParent /> */}
+       <Clickcounter/>
+       <HoverCounter/>
     </div>
   );
 } 
